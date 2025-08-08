@@ -1,0 +1,36 @@
+# What is this
+This is my personal website. It is very incomplete and full of very bad practices, because I am not a webdev, and I don't know what a lot of best practices. I did my best to follow what I think is the majority of them.
+
+I started with the intent to make this website customizable, and discovered that it is not very customizable because I don't really know how consistent spacing works. 
+
+# How to host locally
+1. Make sure [Jekyll/Ruby](https://jekyllrb.com/docs/installation/windows/) are both installed on your host device.
+
+2. Fetch the repo
+```
+git clone <REPO_URL>
+```
+
+3. Navigate to the repo folder 
+```
+cd <REPO_NAME>
+```
+
+4. Run `bundle` in the root folder of the repo.
+```
+bundle
+```
+
+5. Run `jekyll serve` and host the website.
+```
+jekyll serve
+```
+
+# TO-DO
+- [ ] Make this website more accessibility friendly
+- [ ] Uncomment a lot of the things in config and add content to those relevant sections
+- [ ] Fix the ugly mobile navbar
+- [ ] Add fake pagination to most content
+- [ ] Make a different background
+- [ ] Create unique backgrounds for each container
+- [ ] Seriously, clean up my CSS (This isn't ever getting done)

@@ -137,6 +137,10 @@ include: ["_pages"]
 compress_html:
   blanklines: true
 
+sass:
+  style: compressed
+  sass_dir: _sass
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

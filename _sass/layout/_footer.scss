@@ -1,0 +1,17 @@
+@use "utilities/variables" as *;
+
+footer {
+    margin-top: $space-double;
+    padding: 0;
+    border: none;
+    height: $space-double * 2;
+    background-color: $grey-0;
+    margin-left: -$space-double;
+    margin-right: -$space-double;
+    margin-bottom: -$space-double;
+    text-align: center;
+    padding: $space-base;
+    line-height: 1;
+    color: $white;
+    font-size: $font-size-tiny;
+}

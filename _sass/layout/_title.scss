@@ -1,0 +1,60 @@
+@use "utilities/variables" as *;
+
+.title {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-left {
+    display: flex;
+    align-items: center;
+    margin-top: -$space-double;
+    margin-bottom: -$space-base;
+
+    .logo {
+        height: $space-base * 8;
+        margin-right: $space-base;
+        display: block;
+        object-fit: contain;
+        border: none;
+        margin-top: $space-double;
+        margin-bottom: $space-base;
+    }
+
+    .info {
+        padding-left: $space-half;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+    }
+
+    .site-title {
+        font-size: $font-size-massive;
+        font-family: $font-secondary;
+        font-weight: $weight-bold;
+    }
+
+    .author {
+        font-size: $font-size-medium;
+        font-family: $font-secondary;
+        font-weight: $weight-light;
+    }
+}
+
+.title-right {
+    width: auto;
+}
+
+@media (max-width: $mobile-threshold) {
+    .title {
+        grid-row: 1;
+        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-bottom: -$space-base; // Weird fix for  gap when nav menu is closed
+    }
+}

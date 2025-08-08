@@ -1,0 +1,13 @@
+@use "utilities" as *;
+
+.container {
+    @include default-border;
+    padding: $space-double;
+    background-color: $background-color;
+}
+
+@media (max-width: $mobile-threshold) {
+    .container {
+        width: 100%;
+    }
+}

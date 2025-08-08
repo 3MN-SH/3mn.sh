@@ -1,0 +1,45 @@
+@use "utilities" as *;
+
+.photo-gallery {
+    margin-top: $space-double;
+    display: grid;
+    row-gap: 0px;
+    column-gap: $space-base - 2px;
+    justify-content: bottom;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+    transform-origin: center center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.photo-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: none;
+  border-radius: 3px;
+  transition: opacity 0.0s ease-in-out, transform 0.1s ease-in-out;
+  margin-top: 0;
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+    object-fit: cover;
+    border: none;
+    border-radius: 3px;
+    z-index: 10;
+}
+
+.photo-gallery:hover a:not(:hover) img {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.photo-gallery a {
+    &::before, &::after {
+        content: none;
+    }
+}

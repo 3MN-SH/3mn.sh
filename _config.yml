@@ -1,0 +1,150 @@
+# Site settings
+title: 3MN
+description: This is a personal website to dump all of my creative outlets into. Come stay for a while!
+embed_color: 
+baseurl: ""
+url: "3mn.sh" 
+favicon: "/assets/images/favicon.ico"
+logo: "/assets/images/3MN.png"
+author: Shane Hoppe
+
+# Navigation menu 
+navigation:
+  - category: 
+    name: wer
+    blip: "who"
+    parents:
+      - text: home
+        url: /
+        description: "A page that contains a general hierachy and map of the website."
+    #  - text: updates
+    #    url: /updates
+    #    description: "A page that contains the most recent updates to my website, alongside the option to subscribe to an RSS feed."
+      - text: my
+        url: /my
+        description: "Enough information about myself to guess one of my passwords, probably."
+    #  - text: contact
+    #    url: /contact
+    #    description: "Contains general contact information if you want to reach out to me directly."
+      - text: now
+        url: /now
+        description: "A continously updated page with a status that shows what I'm up to in the world."
+
+
+  - category: 
+    name: schreiben # Writing
+    blip: "writing"
+    parents:
+      - text: blog
+        url: /blog
+        description: "It's my blog. Lot's of weird topics will get tossed here probably."
+      - text: poetry
+        url: /poetry
+        description: "This is for all the poetry that I write."
+  #    - text: stories
+  #      url: /stories
+  #      description: "A place for all of my story-based writing."
+  #       children:
+  #       - text: short
+
+
+  #- category: 
+  #  name: musik # Music section
+  #  url: /musik
+  #  blip: "music"
+  #  parents:
+  #    - text: resources
+  #      url: /resources
+       # children:
+        # - text: Sample Packs
+        #   url: /samples
+        # - text: Plugins
+        #   url: /plugins
+        # - text: Scraps
+        #   url: /scraps
+        # - text: Tracks
+        #   url: /tracks
+        # - text: Projects
+        #   url: /plugins
+
+  - category: 
+    name: foto # Photography section
+    blip: "photography"
+    parents:
+      - text: portfolio
+        url: /portfolio
+        description: "A collection of photos that I've taken."
+  #    - text: Projects
+  #      url: /projects/
+
+#  - category: 
+#    name: kunst # Art section
+#    blip: "art"
+ #   parents:
+ #   - text: pixelart
+ #     url: /pixelart
+ #     description: "A small spot for my crappy pixels."
+ #   - text: datamosh
+ #     url: /datamosh 
+ #      description: "A place to showcase the art I've made from datamoshing/databending."
+ # - category: 
+ #   name: rechner # Programming
+ #   url: /rechner
+ #   blip: "programming"
+ #   parents:
+ #   - text: scripts
+ #     url: /scripts 
+
+  - category: 
+    name: versch # Misc
+    blip: "misc"
+    parents:
+    - text: support
+      url: https://ko-fi.com/3mn_sh 
+      description: "If you wanna support me financially, this is the place to do it. :V I would appreciate it so much!"
+    - text: guestbook
+      url: /guestbook 
+      description: "A place for visitors to leave a comment on the site! I read them every now and again!"
+#    - text: bugs
+#      url: /bugs 
+#      description: "A place to report bugs in the website if you find them. I may or may not get around to fixing them."
+
+collections: 
+  wer-now:
+    output: true
+    permalink: /now/:name
+  wer-my:
+    output: true
+    permalink: /my/:name 
+  schreiben-poetry:
+    output: true
+    permalink: /poetry/:name
+  schreiben-blog:
+    output: true
+    permalink: /blog/:name
+  foto-portfolio:
+    output: true
+    permalink: /portfolio/:name
+
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-loading-lazy
+
+include: ["_pages"]
+
+compress_html:
+  blanklines: true
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,15 @@
+@use "utilities/variables" as *;
+
+@mixin default-border {
+    border: $border-width $border-line $border-color;
+}
+
+@mixin default-margin {
+    margin-bottom: $space-base;
+    margin-top: $space-base;
+}
+
+@mixin default-padding {
+    padding-bottom: $space-base;
+    padding-top: $space-base;
+}

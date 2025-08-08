@@ -1,0 +1,28 @@
+@use "utilities" as *;
+
+.blip {
+    font-size: $font-size-tiny;
+    font-weight: $weight-light;
+    margin-left: $space-half;
+}
+
+ul.sitemap {
+    list-style: none;
+    margin-left: 0;
+    padding-bottom: 0;
+}
+
+li.sitemap {
+    margin-left: 0;
+    list-style: none;
+    &::before {
+        content: "~";
+        padding-right: $space-base;
+    }
+    
+}
+
+th:first-child,
+td:first-child {
+    width: 120px;
+}

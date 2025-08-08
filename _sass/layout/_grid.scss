@@ -1,0 +1,13 @@
+@use "utilities/variables" as *;
+
+.grid {
+    grid-template-columns: 0.75fr $column-one-width auto 1fr;
+    gap: $space-base;
+    display: grid;
+}
+
+@media (max-width: $mobile-threshold) {
+    .grid {
+        padding: $space-base;
+    }
+}

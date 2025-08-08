@@ -1,0 +1,110 @@
+/**
+ * 1. Typography
+ * 2. Layout
+ * 3. Colors
+ * 4. Theme
+ */
+
+// 1. Typography
+// =================================
+
+
+
+// Font families
+$font-primary: system-ui, Tahoma, Arial, sans-serif; 
+$font-secondary: system-ui, Tahoma, Arial, sans-serif; 
+$font-monospace: Consolas, 'DejaVu Sans Mono', monospace; 
+
+ // Font base sizes
+$font-size-base: 18px;
+$font-scale: 1.12;
+
+// Font size calculations
+$font-size-tiny: calc(1em / ($font-scale * $font-scale));
+$font-size-small: calc(1em / $font-scale);
+$font-size-medium: calc(1em * $font-scale * $font-scale);
+$font-size-large: calc(1em * $font-scale * $font-scale * $font-scale);
+$font-size-huge: calc(1em * $font-scale * $font-scale * $font-scale * $font-scale);
+$font-size-massive: calc(1em * $font-scale * $font-scale * $font-scale * $font-scale * $font-scale);
+$font-size-title: calc(1em * $font-scale * $font-scale * $font-scale * $font-scale * $font-scale * $font-scale);
+$font-size-colossal: calc(1em * $font-scale * $font-scale * $font-scale * $font-scale * $font-scale  * $font-scale * $font-scale);
+
+// Font weights
+$weight-light: 300;
+$weight-normal: 400;
+$weight-semibold: 500;
+$weight-bold: 700;
+
+
+// 2. Layout
+// =================================
+
+// Background image
+$background: url('/assets/images/bg3.png');
+
+// Spacing
+$space-base: 8px;
+
+//Space calculations
+$space-half:   calc($space-base / 2);
+$space-double:   calc($space-base * 2);
+
+// Grid columns 
+$column-one-width: 160px;
+$column-two-width: 760px;
+
+// Mobile threshold
+$mobile-threshold: clamp(768px, $column-one-width + $column-two-width + $space-double, 1000px);
+
+// 3. Colors
+// =================================
+/*
+I wanted all of the colors that I generate 
+to be made in decimal increments of 42. 
+This short table helps me with that.  
+
+00, 42, 84, 126, 168, 210, 252 (Decimal)
+v   v   v    v    v    v    v
+00, 2A, 54, 7E,  A8,  D2,  FC (Hex)
+*/
+
+$black: #000000;
+$white: #fcfcfc;
+
+$grey-0:#2a2a2a;
+$grey-1:#545454;
+$grey-2:#7e7e7e;
+$grey-3:#a8a8a8;
+$grey-4:#d2d2d2;
+
+$red:   #fc2a7e;
+$orange:#fc7e54;
+$yellow:#fcfc54;
+$green: #00fca8;
+$blue:  #2afcfc;
+$purple:#7e54fc;
+$pink:  #fc7efc;
+
+
+// 4. Theme
+// =================================
+
+// Container background
+$background-color: $white;
+
+// Borders
+$border-color: $black;
+$border-line: solid;
+$border-width: 2px;
+
+// Body text colors
+$text-color-primary: $black;
+$text-color-secondary: $grey-1;
+
+// Link colors
+$link-color: $purple;
+$link-hover-color: $pink;
+
+//Highlight colors
+$highlight-color: $pink;
+

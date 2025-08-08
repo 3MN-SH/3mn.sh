@@ -1,0 +1,26 @@
+@use "utilities/variables" as *;
+
+.content {
+    grid-row: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    padding: $space-base;
+    width: $column-two-width;
+}
+
+.content {
+    & > p:first-child {
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: $mobile-threshold) {
+    .content {
+        grid-row: 3;
+        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        max-width: auto;
+        min-width: auto;
+    }
+}

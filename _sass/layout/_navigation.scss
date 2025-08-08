@@ -1,0 +1,133 @@
+@use "utilities/variables" as *;
+
+.navigation {
+    grid-row: 4;
+    grid-column: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: flex-start;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.navigation-icon {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+  &.closed:hover {
+    color: $grey-2;
+  }
+}
+
+.navigation-menu * {
+    list-style: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-toggle {
+    display: none;
+}
+
+.navigation-category {
+    padding-top: 16px;
+    font-style: italic;
+    
+    &:first-child {
+        padding-top: 0;
+    }
+}
+
+.navigation-parent {
+    font-style: normal;
+}
+
+.navigation-child {
+    font-style: normal;
+    display: none;
+}
+
+@media (max-width: $mobile-threshold) {
+
+    .container.navigation {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .navigation {
+        grid-row: 2;
+        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: none;
+    }
+
+    .navigation-toggle {
+        display: block;
+        padding-top: $space-half;
+        &:hover {
+            fill: $grey-1;
+        }
+    }
+
+    .open {
+        display: block !important;
+        margin-top: $space-base; // Weird fix for gap when nav menu is open
+    }
+
+    .navigation-parent .navigation-icon {
+        display: none;
+    }
+
+    .navigation-child {
+        display: none;
+    }
+
+    .navigation-category:first-child {
+        padding-top: $space-double;
+        margin-top: -$space-double;
+    }
+
+    .navigation-parent:first-child {
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+
+    .navigation-category {
+        font-style: normal;
+        font-weight: $weight-bold;
+        font-size: $font-size-huge;
+        line-height: 1;
+        margin-left: -$space-double;
+        margin-right: -$space-double;
+        padding-left: $space-double;
+        border-bottom: $border-line $border-width $black;
+
+    }
+
+    .navigation-parent {
+        border-top: $border-line $border-width $black;
+        font-weight: $weight-normal;
+        font-size: $font-size-tiny;
+        margin-left: -$space-double;
+        padding-top: $space-double;
+        padding-bottom: $space-double + $space-half; // Huh
+        padding-left: $space-double * 2; // What
+        
+        &::before {
+            content: "~"
+        }
+
+        &:hover {
+            background-color: $grey-4;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@use "utilities" as *;
+
+.color-square {
+    @include default-border;
+    display: inline-block;
+    width: $space-base * 2;
+    height: $space-base * 2;
+    margin-right: $space-half;
+    vertical-align: middle;
+}

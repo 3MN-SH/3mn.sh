@@ -1,0 +1,10 @@
+@use "utilities" as *;
+
+#disqus_thread {
+    margin-left: $space-base;
+    margin-right: $space-base;
+
+    .user.user--refresh {
+        display: none
+    }
+}

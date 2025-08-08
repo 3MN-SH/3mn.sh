@@ -1,0 +1,31 @@
+<div class="container navigation">
+    <ul class="navigation-menu">
+      {% for category in site.navigation %}
+        <li class="navigation-category"><span class="navigation-icon">// </span>{{ category.name }}
+          <ul>
+            {% for parent in category.parents %}
+              <li class="navigation-parent">
+                {% if parent.children %}
+                <span class="navigation-icon closed">+</span>
+                {% else %}
+                <span class="navigation-icon">~</span>
+                {% endif %}
+                </span>
+                <a href="{{ parent.url }}">{{ parent.text }}</a>
+                {% if parent.children %}
+                  <ul>
+                    {% for child in parent.children %}
+                        <li class="navigation-child">
+                          <span class="navigation-icon">~</span>
+                          <a href="{{ child.url }}">{{ child.text }}</a>
+                        </li>
+                      {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+</div>

@@ -28,3 +28,9 @@
     padding-right: $space-base;
     text-align: right;
 }
+
+@media (max-width: $mobile-threshold) {
+    .page-title {
+        font-weight: $weight-light !important;
+    }
+} 

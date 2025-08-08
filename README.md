@@ -25,12 +25,3 @@ bundle
 ```
 jekyll serve
 ```
-
-# TO-DO
-- [ ] Make this website more accessibility friendly
-- [ ] Uncomment a lot of the things in config and add content to those relevant sections
-- [ ] Fix the ugly mobile navbar
-- [ ] Add fake pagination to most content
-- [ ] Make a different background
-- [ ] Create unique backgrounds for each container
-- [ ] Seriously, clean up my CSS (This isn't ever getting done)

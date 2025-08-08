@@ -1,12 +1,13 @@
 # Site settings
 title: 3MN
 description: This is a personal website to dump all of my creative outlets into. Come stay for a while!
-embed_color: #4242FF
+embed_color: "#4242FF"
 baseurl: ""
 url: "3mn.sh" 
 favicon: "/assets/images/favicon.ico"
 logo: "/assets/images/3MN.png"
 author: Shane Hoppe
+
 
 # Navigation menu 
 navigation:
@@ -132,14 +133,14 @@ plugins:
   - jekyll-feed
   - jekyll-loading-lazy
 
-include: ["_pages"]
-
 compress_html:
   blanklines: true
 
 sass:
   style: compressed
   sass_dir: _sass
+
+include: ["_pages"]
 
 exclude:
   - .sass-cache/

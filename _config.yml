@@ -1,7 +1,7 @@
 # Site settings
 title: 3MN
 description: This is a personal website to dump all of my creative outlets into. Come stay for a while!
-embed_color: 
+embed_color: #4242FF
 baseurl: ""
 url: "3mn.sh" 
 favicon: "/assets/images/favicon.ico"
@@ -105,9 +105,9 @@ navigation:
     - text: guestbook
       url: /guestbook 
       description: "A place for visitors to leave a comment on the site! I read them every now and again!"
-#    - text: bugs
-#      url: /bugs 
-#      description: "A place to report bugs in the website if you find them. I may or may not get around to fixing them."
+    - text: bugs
+      url: https://github.com/3MN-SH/3mn.sh/issues
+      description: "A place to report bugs in the website if you find them. I may or may not get around to fixing them."
 
 collections: 
   wer-now:

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:author" content="{{ site.title }} // Shane Hoppe">
     <meta property="og:title" content="// {{ page.title }}">
+    <meta property="og:og:site_name" content="{{ site.title }} // Shane Hoppe">
     {% if page.summary %} 
       <meta property="og:description" content="{{ page.summary }}">
     {% else if content %} 
-      <meta property="og:description" content="{{ content | striphtml | truncate: 30 }}">
+      <meta property="og:description" content="{{ content | strip_html | truncate: 30 }}">
     {% else %}
       <meta property="og:description" content="{{ site.description }}">
     {% endif %}

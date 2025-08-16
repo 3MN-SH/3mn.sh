@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:title" content="// {{ page.title }}">
-    <meta property="og:site_name" content="{{ site.title }} // Shane Hoppe">
+    <meta property="og:site_name" content="{{ Shane Hoppe">
     {% if page.embed_content %} 
       <meta property="og:description" content="{{ content | strip_html }}">
-    {% else if page.summary %} 
+    {% elsif page.summary != none %} 
       <meta property="og:description" content="{{ page.summary }}">
-    {% else if content %} 
+    {% elsif content %} 
       <meta property="og:description" content="{{ content | strip_html | truncate: 150 }}">
     {% else %}
       <meta property="og:description" content="{{ site.description }}">

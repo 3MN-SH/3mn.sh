@@ -1,7 +1,6 @@
 ---
 title: Personal Software Usage
 layout: my
-permalink: /my/personal-software-usage
 ---
 The software I list here is what I consider to be the most used stuff on my computer.
 

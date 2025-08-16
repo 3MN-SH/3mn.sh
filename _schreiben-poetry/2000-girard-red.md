@@ -2,6 +2,7 @@
 layout: poem
 title: 2000 Girard Red
 date: 2025-01-17
+embed_content: true
 ---
 A delicate burn of Your cherry notes —
     And tannic sing,

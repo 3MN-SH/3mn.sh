@@ -2,6 +2,7 @@
 layout: poem
 title: Honeycrisp or Granny Smith?
 date: 2025-04-22
+embed_content: true
 ---
 It was my father's end of winter.
 And my lively spring horizon, 

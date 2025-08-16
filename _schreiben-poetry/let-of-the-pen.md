@@ -1,8 +1,8 @@
 ---
 layout: poem
-permalink: /poetry/let-of-the-pen
 title: Let of the Pen
 date: 2025-04-22
+embed_content: true
 ---
 The stroke of the pen
 Does not know when

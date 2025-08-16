@@ -1,8 +1,8 @@
 ---
 layout: poem
-permalink: /poetry/backroad-catharsis
 title: Backroad Catharsis
 date: 2025-08-11
+embed_content: true
 ---
 It's four A.M. — driving slow.
 Yellow streaks, orange cones,

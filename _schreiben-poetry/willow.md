@@ -1,8 +1,8 @@
 ---
 layout: poem
-permalink: /poetry/willow
 title: Willow
 date: 2024-02-14
+embed_content: true
 ---
 O' Weeping Willow tree—
 Why again cry, doth ye?

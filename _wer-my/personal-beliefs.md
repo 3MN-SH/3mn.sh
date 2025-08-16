@@ -1,7 +1,6 @@
 ---
 title: Personal Beliefs
 layout: my
-permalink: /my/beliefs
 ---
 This is a really touchy area for me, particularly because of how people choose to define belief. I choose to interpret 'belief' as "repititous and demonstrative action that supports a result in a material way". This personal definition of belief is important to explain because I think that people tend to couple [ideals]("/my/ideals") alongside their beliefs, and I find that ideals and beliefs are two very separate distinctions. 
 

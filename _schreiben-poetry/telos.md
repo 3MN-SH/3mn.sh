@@ -2,6 +2,7 @@
 layout: poem
 title: Telos
 date: 2024-11-02
+embed_content: true
 ---
 The destiny of mankind's timeless troubles,
 Begins but blindly buried beneath the rubble.

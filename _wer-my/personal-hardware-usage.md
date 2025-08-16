@@ -1,7 +1,6 @@
 ---
 title: Personal Hardware Usage
 layout: my
-permalink: /my/personal-hardware-usage
 ---
 This list probably doesn't cover all the weird hardware I own, but it covers the stuff that I interact with the most. I love tactile gear.
 

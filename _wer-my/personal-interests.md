@@ -1,7 +1,6 @@
 ---
 title: Personal Interests
 layout: my
-permalink: /my/personal-interests
 ---
 This list started randomly on a piece of paper. I found it useful to categorize my interests based on whether or not I wanted them, and into four categories: *active*, *passive*, *past*, *backlog*. Doing this alongside deciding whether or not I was pleased with their placement was really useful for me sometimes in deciding whether or not what I was doing was actually in alignment with what I wanted.
 

@@ -1,7 +1,6 @@
 ---
 title: Personal Ideals
 layout: my
-permalink: /my/personal-ideals
 ---
 Conversely to my [beliefs](/my/beliefs), I have ideals that I hold that are distincly NOT beliefs. I define ideals to be an assertion that one tries their best to uphold, but inevitably ends up broken from time to time. These are beliefs that are 'aimed at', rather than actually 'done'. 
 

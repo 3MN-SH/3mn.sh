@@ -1,7 +1,6 @@
 ---
 title: Favorite Video Games
 layout: my
-permalink: /my/favorite-videogames
 ---
 For as many games that I have in my Steam library, this list probably should be longer, but it isn't. 
 - To The Moon Series

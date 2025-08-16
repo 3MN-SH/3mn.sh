@@ -1,7 +1,6 @@
 ---
 title: Favorite Boardgames
 layout: my
-permalink: /my/favorite-boardgames
 ---
 I am a pretty heavy boardgame geek, I'll be honest. I currently own over 50+ boardgames, although they really don't see as much playtime as they should. In anycase, I've definitely developed a few personal favorites over the years:
 - Catan (With expansions)

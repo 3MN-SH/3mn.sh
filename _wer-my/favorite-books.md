@@ -1,7 +1,6 @@
 ---
 title: Favorite Books
 layout: my
-permalink: /my/favorite-books
 ---
 I mainly enjoy non-fiction books that focus on the topics listed above. Here's a few books that I've read that I enjoy:
 - This Is How They Tell Me the World Ends by Nicole Perloth 

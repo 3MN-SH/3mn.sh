@@ -1,7 +1,6 @@
 ---
 title: Personal Every Day Carries
 layout: my
-permalink: /my/personal-edc
 ---
 I don't really carry too much on me, but these usually stick around me:
 - Sony WF-1000XM3 Earbuds 

@@ -13,6 +13,7 @@ contents = f"""---
 layout: now
 status: {status}
 title: {date}
+embed_content: true
 ---
 """
 with open(f"{EXPORT_DIR}{date}.md", "w") as f:

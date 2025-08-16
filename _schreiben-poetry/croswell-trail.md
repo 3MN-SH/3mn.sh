@@ -2,6 +2,7 @@
 layout: poem
 title: Croswell Trail
 date: 2025-05-07
+embed_content: true
 ---
 Face tugged down,
 Watching the tread,

@@ -1,7 +1,6 @@
 ---
 title: Personal Assessments
 layout: my
-permalink: /my/personal-assessment
 ---
 I don't know how much I believe the legitimacy of personality tests. To some degree, I think they're useful for gauging a surface level analysis of how one might decide to make decisions or actions. In any case, I intend to share my own assessments. I found them to be *mostly* accurate. I tend to retake these tests every 1-2 years. 
 

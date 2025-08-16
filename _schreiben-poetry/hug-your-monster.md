@@ -2,6 +2,7 @@
 layout: poem
 title: Hug Your Monster
 date: 2025-07-27
+embed_content: true
 ---
 Do others see what dithers?
 Amidst the drudgery, 

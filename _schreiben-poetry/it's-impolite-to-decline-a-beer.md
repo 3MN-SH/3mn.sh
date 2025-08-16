@@ -2,6 +2,7 @@
 layout: poem
 title: It's Impolite to Decline a Beer
 date: 2025-08-03
+embed_content: true
 ---
 Forced to have
 Drunk family,

@@ -1,7 +1,6 @@
 ---
 title: Favorite Quotes
 layout: my
-permalink: /my/favorite-quotes
 ---
 This is a curated selection of personal favorite quotes that I keep close to me. 
 > "You will be what you will to be."

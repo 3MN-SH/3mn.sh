@@ -2,6 +2,7 @@
 layout: poem
 title: I’m Glad That You’re All Here
 date: 2025-07-19
+embed_content: true
 ---
 What warmth — 
 the pride of a hobbled campfire.

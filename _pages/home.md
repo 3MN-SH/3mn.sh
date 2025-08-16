@@ -2,6 +2,7 @@
 title: Home
 layout: home
 permalink: /
+summary: This is my little corner of the internet. Come stay for a while!
 ---
 **Hello World.**
 

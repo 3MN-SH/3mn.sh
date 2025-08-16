@@ -2,6 +2,7 @@
 layout: poem
 title: Fox Glen
 date: 2025-05-13
+embed_content: true
 ---
 February, on a day that didn’t really matter.
 Sunny, lingering mud and snow, spring chatter.

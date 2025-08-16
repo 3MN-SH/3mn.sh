@@ -2,6 +2,7 @@
 layout: poem
 title: Sandusky Hill
 date: 2025-03-15
+embed_content: true
 ---
 In the mid-summer, third grade, 
 I found myself a boy at camp.

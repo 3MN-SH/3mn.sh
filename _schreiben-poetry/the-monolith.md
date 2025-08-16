@@ -2,6 +2,7 @@
 layout: poem
 title: The Monolith
 date: 2025-07-11
+embed_content: true
 ---
 The
 Wall,

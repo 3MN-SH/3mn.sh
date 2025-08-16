@@ -1,7 +1,6 @@
 ---
 title: Personal Career Path
 layout: my
-permalink: /my/personal-path
 ---
 Over the years I have done a number of projects, competitions, and certifications that have all helped grow my cybersecurity knowledge and lead me down the path that I am today. But if I had to pick a point where everything kickstarted it would be when I got my first laptop around thirteen years old, and when my father got a foosball table. That foosball table came used from some sale, and as a consquence for its price, it didn’t come with a key to retrieve the foosballs. So, being a curious teen, I researched how to lockpick on my trusty Windows Vista laptop running Internet Explorer. Eventually, I got a vague grasp of lockpicking, and managed to open the lock to the foosball table with a paper clip. This kindled a deep curiousity within me, but I didn’t really want to do lockpicking for a living – yet the idea of breaking into things struck fascinated me.
 

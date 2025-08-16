@@ -1,8 +1,8 @@
 ---
 layout: poem
-permalink: /poetry/old-garden-songbirds
 title: Old Garden Songbirds
 date: 2025-06-22
+embed_content: true
 ---
 Another morning, another wake,
 Through the door to start the day,

@@ -2,6 +2,7 @@
 layout: poem
 title: On Thursday
 date: 2025-05-07
+embed_content: true
 ---
 It may have been a Wednesday, 
 When I noticed the stain from yesterday,

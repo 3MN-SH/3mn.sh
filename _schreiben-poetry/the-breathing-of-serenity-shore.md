@@ -2,6 +2,7 @@
 layout: poem
 title: The Breath of Serenity Shore
 date: 2025-07-31
+embed_content: true
 ---
 Ten-thousand waves,
 Crashed, swelled, billowed,

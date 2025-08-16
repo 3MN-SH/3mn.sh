@@ -2,6 +2,7 @@
 layout: poem
 title: Canvas
 date: 2024-12-17
+embed_content: true
 ---
 The buckets
 Fetched

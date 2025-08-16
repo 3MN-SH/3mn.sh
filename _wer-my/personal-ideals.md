@@ -2,7 +2,7 @@
 title: Personal Ideals
 layout: my
 ---
-Conversely to my [beliefs](/my/beliefs), I have ideals that I hold that are distincly NOT beliefs. I define ideals to be an assertion that one tries their best to uphold, but inevitably ends up broken from time to time. These are beliefs that are 'aimed at', rather than actually 'done'. 
+Conversely to my [beliefs](/my/personal-beliefs/), I have ideals that I hold that are distincly NOT beliefs. I define ideals to be an assertion that one tries their best to uphold, but inevitably ends up broken from time to time. These are beliefs that are 'aimed at', rather than actually 'done'. 
 
 I choose to identify these notions as ideals, so that I may guide my actions around them in hopes of forming them into belief:
 - To understand is to forgive.

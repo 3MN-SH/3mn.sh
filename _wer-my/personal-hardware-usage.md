@@ -33,5 +33,5 @@ This list probably doesn't cover all the weird hardware I own, but it covers the
 
 # Other
 - Razer Blade 15 *(Surprisingly not ashamed of this)*
-- Meta Quest 2 *(Specifically for Beat Saber_*
+- Meta Quest 2 *(Specifically for Beat Saber)*
 - Raspberry Pi 4 8GB

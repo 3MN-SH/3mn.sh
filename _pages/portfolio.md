@@ -1,7 +1,6 @@
 ---
 title: Portfolio
 layout: page
-permalink: /portfolio
 ---
 <head>
 <link rel="stylesheet" href="/assets/css/lightbox.css">

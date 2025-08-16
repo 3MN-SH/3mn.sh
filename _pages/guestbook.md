@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /guestbook
 title: Guestbook
 comments: true
 ---

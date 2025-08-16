@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Now
-permalink: /now
 ---
 This is my [now](https://nownownow.com/about) page, which I intend to update as often as I feel like giving the the world a glimpse as to what I am currently up to. Most of these updates will focus around updates regarding projects, transitions, and other life events that I am dealing with. 
 

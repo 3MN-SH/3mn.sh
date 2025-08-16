@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:title" content="{{ site.title }} // {{ page.title }}">
-    <meta property="og:description" content="{{ site.description }}">
-	  <meta property="og:theme-color" content="{{ site.embed_color }}">
+    <meta property="og:author" content="{{ site.title }} // Shane Hoppe">
+    <meta property="og:title" content="// {{ page.title }}">
+    {% if page.summary %} 
+      <meta property="og:description" content="{{ page.summary }}">
+    {% else if content %} 
+      <meta property="og:description" content="{{ content | striphtml | truncate: 30 }}">
+    {% else %}
+      <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+	  <meta property="theme-color" content="{{ site.embed_color }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/assets/images/3MN.png">
     <meta property="og:url" content="{{ page.url }}">

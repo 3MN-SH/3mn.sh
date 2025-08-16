@@ -113,19 +113,19 @@ navigation:
 collections: 
   wer-now:
     output: true
-    permalink: /now/:name
+    permalink: /now/:name/
   wer-my:
     output: true
-    permalink: /my/:name 
+    permalink: /my/:name/
   schreiben-poetry:
     output: true
-    permalink: /poetry/:name
+    permalink: /poetry/:name/
   schreiben-blog:
     output: true
-    permalink: /blog/:name
+    permalink: /blog/:name/
   foto-portfolio:
     output: true
-    permalink: /portfolio/:name
+    permalink: /portfolio/:name/
 
 
 # Build settings

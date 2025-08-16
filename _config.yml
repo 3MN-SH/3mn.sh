@@ -22,13 +22,13 @@ navigation:
     #    url: /updates
     #    description: "A page that contains the most recent updates to my website, alongside the option to subscribe to an RSS feed."
       - text: my
-        url: /my
+        url: /my/
         description: "Enough information about myself to guess one of my passwords, probably."
     #  - text: contact
     #    url: /contact
     #    description: "Contains general contact information if you want to reach out to me directly."
       - text: now
-        url: /now
+        url: /now/
         description: "A continously updated page with a status that shows what I'm up to in the world."
 
 
@@ -37,10 +37,10 @@ navigation:
     blip: "writing"
     parents:
       - text: blog
-        url: /blog
+        url: /blog/
         description: "It's my blog. Lot's of weird topics will get tossed here probably."
       - text: poetry
-        url: /poetry
+        url: /poetry/
         description: "This is for all the poetry that I write."
   #    - text: stories
   #      url: /stories
@@ -73,7 +73,7 @@ navigation:
     blip: "photography"
     parents:
       - text: portfolio
-        url: /portfolio
+        url: /portfolio/
         description: "A collection of photos that I've taken."
   #    - text: Projects
   #      url: /projects/
@@ -104,7 +104,7 @@ navigation:
       url: https://ko-fi.com/3mn_sh 
       description: "If you wanna support me financially, this is the place to do it. :V I would appreciate it so much!"
     - text: guestbook
-      url: /guestbook 
+      url: /guestbook/ 
       description: "A place for visitors to leave a comment on the site! I read them every now and again!"
     - text: bugs
       url: https://github.com/3MN-SH/3mn.sh/issues

@@ -2,6 +2,7 @@
 layout: page
 title: Guestbook
 comments: true
+permalink: /guestbook/
 ---
 This page uses [Disqus](https://disqus.com/) to capture and display comments. I intend to migrate this over to a self-hosted platform at some point so I can break away from the ads and things that are attached to this.
 

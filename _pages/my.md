@@ -1,6 +1,7 @@
 ---
 layout: page
 title: My
+permalink: /my/
 ---
 So, this is **MY** page. I've been told several times throughout my life that I tend to be discrete about my interests, and to be fair, *I am really bad at talking about myself*. So to combat this, I've decided to make a "my" page, which has an absurd amount of information about myself, probably enough to profile my existence throughout the internet (which is funny because my career is devoted to the cybersecurity industry).
 

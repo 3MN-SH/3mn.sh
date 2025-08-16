@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Poetry
+permalink: /poetry/
 ---
 This is a colleciton of poetry that I've decided to publicize. I have been writing poetry since the early years of high school. Despite this, I kind of want to keep those writings in the past, as I'm not particularly fond of most of them. In any case, here's my collection of poetry:
 

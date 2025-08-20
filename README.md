@@ -1,5 +1,5 @@
 # What is this
-This is my personal website. It is very incomplete and full of very bad practices, because I am not a webdev, and I don't know what a lot of best practices. I did my best to follow what I think is the majority of them.
+This is my personal website. It is very incomplete and full of very bad practices, because I am not a webdev, and I don't know what a lot of best practices are. I did my best to follow what I thought was "good practice".
 
 I started with the intent to make this website customizable, and discovered that it is not very customizable because I don't really know how consistent spacing works. 
 

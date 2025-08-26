@@ -7,7 +7,7 @@ Before I dive into a little anecdote of mine, I want to preface that I am part o
 
 Preface aside, a few days ago I went on a trip to a friend's place, and got there just fine, and had a great time catching up and hanging out. When I went back however, I had a bit of an interesting predicament that I'm sure all vehicle owners can relate to -- I missed a turn. 
 
-Now, there's usually a couple ways this goes normally goes when using a navigation app: You take the new route, or you u-turn back to the missed road. There's usually a few parameters that goes into it like, "How late is this mistake going to make me?" or "Do I feel safe in this area?" or "Will I look weird turning around here?". Something along those line. 
+Now, there's usually a couple ways this goes normally goes when using a navigation app: You take the new route, or you u-turn back to the missed road. There's usually a few parameters that goes into it like, "How late is this mistake going to make me?" or "Do I feel safe in this area?" or "Will I look weird turning around here?". Something along those lines. 
 
 But sometimes we keep going. Despite glancing at the estimated time jumping from a 43 minute arrival time, to a 58 minute arrival time, we keep going. We take a route that is certainly less traveled. 
 

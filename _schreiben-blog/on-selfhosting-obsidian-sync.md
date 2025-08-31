@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Selfhosted Obsidian File Sync
+title: On Selfhosting Obsidian Sync
 date: 2025-08-07
 ---
 For anyone who knows me, I have had an on-and-off struggle with settling on software for my second brain, but have finally settled on [Obsidian](https://obsidian.md/), which is a fantastic software for developing your own personal knowledge management system. It offers a variety of wiki-esque tools that allow you to link your thinking, and the files that are made aren't locked into a file format that isn't viewable by a text editor. I wanted something that I could use on the go, that was easily readable, and in the event of the software going EOL, I could at least rely on the contents being intact and importable into a different kind of software. Most importantly, I had total control over the files and didn't need to worry about data breaches from the company that I entrusted -- all of my files were in my own hands, and I could treat them as securely as I wanted to. 

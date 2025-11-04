@@ -109,6 +109,9 @@ navigation:
     - text: bugs
       url: https://github.com/3MN-SH/3mn.sh/issues
       description: "A place to report bugs in the website if you find them. I may or may not get around to fixing them."
+    - text: github
+      url: https://github.com/3MN-SH/3mn.sh/
+      description: "My GitHub profile where I host the code for this website and other personal projects."
 
 collections: 
   wer-now:
